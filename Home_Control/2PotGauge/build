@@ -1,0 +1,4 @@
+#!/bin/bash 
+g++ -Wall Analogin.cpp publish.cpp -o publish -lpaho-mqtt3c
+
+

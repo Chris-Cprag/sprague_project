@@ -1,0 +1,5 @@
+The Adafruit Actions were done using a Reactive Trigger on Adafruit IO's
+website.
+They took the potentiometer level and measured whether or not the level went
+above a certain point. The image corresponding to the action feed would
+change accordingly. 

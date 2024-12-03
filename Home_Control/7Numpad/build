@@ -1,0 +1,3 @@
+#!/bin/bash 
+g++ -Wall makeLEDs.cpp  subscribe.cpp -o subscribe -lpaho-mqtt3c
+

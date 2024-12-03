@@ -1,0 +1,5 @@
+#!/bin/bash 
+config-pin p9.22 pwm
+#echo 0 > /sys/class/pwm/pwmchip1/export
+g++ util.cpp PWM.cpp subscribe.cpp -o subscribe -lpaho-mqtt3c
+
